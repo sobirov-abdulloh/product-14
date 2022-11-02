@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  margin-top: 30px;
+  color: #192252;
+}
+
+header > .header_ichi {
+  display: flex;
+}
+header > .header_ichi > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 19px;
+  margin: 0 10px;
+}
+header > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 13px;
+  background: #0e1734;
+  border-radius: 4px;
+  color: #ffff;
+}
+.tepasi {
+  display: grid;
+  grid-template-columns: 50% 40%;
+}
+.tepasi_chap {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tepasi_chap > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+}
+.tepasi_chap > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #848fac;
+}
+.tepasi_chap > button {
+  color: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 28px;
+  background: #0e1734;
+  border-radius: 4px;
+}
+.tepasi_rasm > #rasm{
+margin: 170px 28px 0 28px;
+}
+
+
+
+
